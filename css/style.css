@@ -139,6 +139,7 @@ body {
   border-radius: 10px;
 }
 
+
 .title::after {
   position: absolute;
   content: "";
@@ -149,6 +150,27 @@ body {
   border-radius: 2px;
   background: var(--light);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .progress {
   height: 5px;
@@ -249,7 +271,7 @@ body {
 }
 
 .mask {
-  width: 60vw;
+
   height: 60vh;
   background-color: hsla(0,0%,0%, 0.9);
   mask: radial-gradient(
@@ -262,4 +284,70 @@ body {
     transparent 40px,
     black 150px
   );
+}
+
+
+.lang {
+  background-color: #314355;
+  text-align: left;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 16px;
+  
+}
+
+.lange {
+  background-color: #314355;
+  text-align: right;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 16px;
+  
+}
+
+
+
+.lang a {
+  color: rgb(209, 209, 209);
+}
+
+.lange a {
+  color: rgb(209, 209, 209);
+}
+
+
+.eng {
+  direction: ltr;
+}
+
+
+
+.titlee {
+  position: relative;
+
+}
+
+.titlee::before {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  bottom: -4px;
+  left: 0;
+  border: 2px solid var(--light);
+  border-radius: 10px;
+}
+
+
+.titlee::after {
+  position: absolute;
+  content: "";
+  width: 55%;
+  height: 2px;
+  bottom: 0;
+  left: 15px;
+  border-radius: 2px;
+  background: var(--light);
 }
